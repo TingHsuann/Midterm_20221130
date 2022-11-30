@@ -1,0 +1,329 @@
+.wrap{
+    margin: 0 auto;
+    width: 1920px;
+}
+.header{
+    margin-bottom: 60px;
+}
+.nav{
+    height: 28px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 13px;
+}
+.nav li{
+    display:inline;
+}
+.space{
+    border-left: 1px solid #cccccc;
+    margin-left: 8px;
+    margin-right:8px;
+}
+.fb{
+    color:#5c74ab;
+    text-decoration: none;
+    font-size: 15px;
+}
+.twitter{
+    color:#00aaec;
+    text-decoration: none;
+    font-size: 15px;
+}
+/* 選單 */
+.navbar{
+    width:1296px;
+    height: 50px;
+    margin: 0 auto;
+    /* margin-bottom: 30px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #AA0601;
+    padding-left: 312px;
+    padding-right: 312px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    width: 80px;
+    text-align: center;   
+}
+.menu li a{
+    height:27px;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: content-box;
+}
+.menu li a:hover{
+
+    border-bottom: 3px solid  rgb(0, 204, 153);
+}
+/* 公告欄 */
+.banner{
+    position: relative;
+}
+.bgbanner{
+    width: 1024px;
+    height: 160px;
+    font-size: 36px;
+    position: absolute;
+    top: 94px;    
+    
+}
+.banner h2{
+    text-align: right;
+    font-size: 36px;
+    position: absolute;
+    top: 296px;
+    left:1032px;
+    padding-left: 23px;
+    color:#650300;
+    z-index: 10;
+}
+.banner h2 .navbar_one{
+    font-size: 36px;
+    color: #650300;
+    height: 64px;
+}
+.banner h2 .navbar_two{
+    font-size: 60px;
+    color: #650300;
+    font-weight: bold;
+    height: 96px;
+}
+/* 課程 */
+.course{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    padding-left: 312px;
+    padding-right: 312px;
+}
+.service-title{
+    font-size: 48px;
+    color: #650300;
+    font-weight: bold;
+    text-align: center;
+}
+.course-item{
+    width: 260px;
+    padding: 20px;
+}
+.course-item h2{
+    text-align:center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.course p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+}
+.course-img img{
+    height: 84px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 24px;
+}
+/* 產品 */
+.product-title{
+    font-size: 48px;
+    color: #650300;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 48px;
+}
+.product{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    padding-left: 312px;
+    padding-right: 312px;
+}
+.product-title{
+    font-size: 48px;
+    color: #650300;
+    font-weight: bold;
+    text-align: center;
+}
+.product-item{
+    width: 416px;
+    /* padding: 20px; */
+}
+.product-item h2{
+    text-align:center;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #AA0601;
+    font: italic normal 900 48px/72px Roboto;
+}
+.product-img img{
+    height: 416px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.advretise{
+    margin-bottom: 80px;
+}
+
+/* 人 */
+.people{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    padding-left: 312px;
+    padding-right: 312px;
+}
+.people-title{
+    font-size: 48px;
+    color: #650300;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 48px;
+}
+.people-item{
+    width: 306px;
+    
+    box-shadow: 0px 2px 6px #00000029;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+}
+.people-item h2{
+    text-align:left;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.people p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+}
+.people-img img{
+    height: 306px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+/* 表格 */
+.difference{
+    font-size: 24px;
+	font-weight: bold;
+    line-height: 22px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.compare{
+    width: 840px;
+    height: 253px;
+    margin: auto;
+    margin-bottom: 62px;
+}
+.compare th, .compare td{
+    border-top: 1px solid #dddddd ;
+    border-bottom: 1px solid #dddddd ;
+    line-height: 36px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.compare th{
+    text-align: left;    
+    font-size: 15px;
+    font-weight: bold;
+    background: #f7f7f7;
+}
+.mark{
+    color: #00a67d;
+}
+
+/* 表單 */
+.formplace{
+    width: 1024px;
+    height: 405px;
+    background: linear-gradient(#00644b,#009771);
+}
+.formtitle p{
+	height: 60px;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 38px;
+    line-height: 30px;
+}
+.formspace{
+    padding-top: 32px;
+    padding-left: 19px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.textinput .putinfo{
+    width: 460px;
+	height: 32px;
+    border-radius: 3px;
+    border: solid 1px #e1e1e1;
+    margin-bottom: 16px;
+}
+.textinput label{
+    height: 20px;
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 6px;
+    display: block;
+    color: #ffffff;
+}
+.textinput .submit{
+    width: 70px;
+	height: 32px;
+	background: #00cc99;
+	border-radius: 3px;
+    border: 0px;
+    display: block;
+    margin-left: 395px;
+}
+.feedback{
+    width: 460px;
+    height: 245px;
+    resize:none;
+}
+
+/* 表尾 */
+.footer{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 21px;
+    padding-right: 15px;
+}
+.footerinfo{
+    width: 235px;
+    line-height: 24px;
+    font-size: 15px;
+}
+.footertitle{
+    display: inline;
+}
+.footercontent{
+    display: inline;
+    color:#e12d80;
+}
