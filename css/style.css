@@ -254,57 +254,6 @@
     color: #00a67d;
 }
 
-/* 表單 */
-.formplace{
-    width: 1024px;
-    height: 405px;
-    background: linear-gradient(#00644b,#009771);
-}
-.formtitle p{
-	height: 60px;
-    font-size: 24px;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 38px;
-    line-height: 30px;
-}
-.formspace{
-    padding-top: 32px;
-    padding-left: 19px;
-    padding-right: 20px;
-    display: flex;
-    justify-content: space-between;
-    
-}
-.textinput .putinfo{
-    width: 460px;
-	height: 32px;
-    border-radius: 3px;
-    border: solid 1px #e1e1e1;
-    margin-bottom: 16px;
-}
-.textinput label{
-    height: 20px;
-    font-size: 15px;
-    line-height: 24px;
-    padding-bottom: 6px;
-    display: block;
-    color: #ffffff;
-}
-.textinput .submit{
-    width: 70px;
-	height: 32px;
-	background: #00cc99;
-	border-radius: 3px;
-    border: 0px;
-    display: block;
-    margin-left: 395px;
-}
-.feedback{
-    width: 460px;
-    height: 245px;
-    resize:none;
-}
 
 /* 表尾 */
 .footer{
